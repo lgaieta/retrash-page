@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="es">
-            <body className={inter.className}>
+            <body className={`flex flex-col items-center justify-center ${inter.className}`}>
                 <header className="flex justify-center items-center w-full p-4 border-b border-b-[#DFDFDF]">
                     <div className="relative h-8 w-[90px]">
                         <Image src="/logotipo.svg" alt='ReTrash Logo' fill />
