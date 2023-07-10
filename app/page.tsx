@@ -1,6 +1,6 @@
 import { RiRecycleFill } from "react-icons/ri";
 import { FaTrash } from "react-icons/fa";
-import Webcam from "react-webcam";
+import Camera from "@/components/Camera";
 
 export default function Home() {
     return (
@@ -14,7 +14,7 @@ export default function Home() {
             <p className="text-base text-center">
                 Apuntá a un producto y averiguá si es reciclable o no.
             </p>
-            <Webcam />
+            <Camera />
             <div className="flex flex-col w-max justify-center items-center p-4 rounded-lg bg-accent-dark text-white border border-accent gap-2">
                 <RiRecycleFill size={40} color="#FFFFFF" />
                 <p className="text-xl font-bold text-center">
